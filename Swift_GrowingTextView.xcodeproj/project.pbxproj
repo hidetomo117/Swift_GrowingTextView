@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564A263922EDA46F00D41507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A263822EDA46F00D41507 /* AppDelegate.swift */; };
+		564A263B22EDA46F00D41507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A263A22EDA46F00D41507 /* ViewController.swift */; };
+		564A263E22EDA46F00D41507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A263C22EDA46F00D41507 /* Main.storyboard */; };
+		564A264022EDA47000D41507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A263F22EDA47000D41507 /* Assets.xcassets */; };
+		564A264322EDA47000D41507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A264122EDA47000D41507 /* LaunchScreen.storyboard */; };
+		564A264E22EDA47000D41507 /* Swift_GrowingTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A264D22EDA47000D41507 /* Swift_GrowingTextViewTests.swift */; };
+		564A265922EDA47000D41507 /* Swift_GrowingTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A265822EDA47000D41507 /* Swift_GrowingTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564A264A22EDA47000D41507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A262D22EDA46F00D41507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A263422EDA46F00D41507;
+			remoteInfo = Swift_GrowingTextView;
+		};
+		564A265522EDA47000D41507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A262D22EDA46F00D41507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A263422EDA46F00D41507;
+			remoteInfo = Swift_GrowingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564A263522EDA46F00D41507 /* Swift_GrowingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_GrowingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A263822EDA46F00D41507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564A263A22EDA46F00D41507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564A263D22EDA46F00D41507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564A263F22EDA47000D41507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564A264222EDA47000D41507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564A264422EDA47000D41507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A264922EDA47000D41507 /* Swift_GrowingTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_GrowingTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A264D22EDA47000D41507 /* Swift_GrowingTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GrowingTextViewTests.swift; sourceTree = "<group>"; };
+		564A264F22EDA47000D41507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A265422EDA47000D41507 /* Swift_GrowingTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_GrowingTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A265822EDA47000D41507 /* Swift_GrowingTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GrowingTextViewUITests.swift; sourceTree = "<group>"; };
+		564A265A22EDA47000D41507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564A263222EDA46F00D41507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A264622EDA47000D41507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A265122EDA47000D41507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564A262C22EDA46F00D41507 = {
+			isa = PBXGroup;
+			children = (
+				564A263722EDA46F00D41507 /* Swift_GrowingTextView */,
+				564A264C22EDA47000D41507 /* Swift_GrowingTextViewTests */,
+				564A265722EDA47000D41507 /* Swift_GrowingTextViewUITests */,
+				564A263622EDA46F00D41507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564A263622EDA46F00D41507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A263522EDA46F00D41507 /* Swift_GrowingTextView.app */,
+				564A264922EDA47000D41507 /* Swift_GrowingTextViewTests.xctest */,
+				564A265422EDA47000D41507 /* Swift_GrowingTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564A263722EDA46F00D41507 /* Swift_GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				564A263822EDA46F00D41507 /* AppDelegate.swift */,
+				564A263A22EDA46F00D41507 /* ViewController.swift */,
+				564A263C22EDA46F00D41507 /* Main.storyboard */,
+				564A263F22EDA47000D41507 /* Assets.xcassets */,
+				564A264122EDA47000D41507 /* LaunchScreen.storyboard */,
+				564A264422EDA47000D41507 /* Info.plist */,
+			);
+			path = Swift_GrowingTextView;
+			sourceTree = "<group>";
+		};
+		564A264C22EDA47000D41507 /* Swift_GrowingTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				564A264D22EDA47000D41507 /* Swift_GrowingTextViewTests.swift */,
+				564A264F22EDA47000D41507 /* Info.plist */,
+			);
+			path = Swift_GrowingTextViewTests;
+			sourceTree = "<group>";
+		};
+		564A265722EDA47000D41507 /* Swift_GrowingTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564A265822EDA47000D41507 /* Swift_GrowingTextViewUITests.swift */,
+				564A265A22EDA47000D41507 /* Info.plist */,
+			);
+			path = Swift_GrowingTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564A263422EDA46F00D41507 /* Swift_GrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A265D22EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextView" */;
+			buildPhases = (
+				564A263122EDA46F00D41507 /* Sources */,
+				564A263222EDA46F00D41507 /* Frameworks */,
+				564A263322EDA46F00D41507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_GrowingTextView;
+			productName = Swift_GrowingTextView;
+			productReference = 564A263522EDA46F00D41507 /* Swift_GrowingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564A264822EDA47000D41507 /* Swift_GrowingTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A266022EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextViewTests" */;
+			buildPhases = (
+				564A264522EDA47000D41507 /* Sources */,
+				564A264622EDA47000D41507 /* Frameworks */,
+				564A264722EDA47000D41507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A264B22EDA47000D41507 /* PBXTargetDependency */,
+			);
+			name = Swift_GrowingTextViewTests;
+			productName = Swift_GrowingTextViewTests;
+			productReference = 564A264922EDA47000D41507 /* Swift_GrowingTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564A265322EDA47000D41507 /* Swift_GrowingTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A266322EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextViewUITests" */;
+			buildPhases = (
+				564A265022EDA47000D41507 /* Sources */,
+				564A265122EDA47000D41507 /* Frameworks */,
+				564A265222EDA47000D41507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A265622EDA47000D41507 /* PBXTargetDependency */,
+			);
+			name = Swift_GrowingTextViewUITests;
+			productName = Swift_GrowingTextViewUITests;
+			productReference = 564A265422EDA47000D41507 /* Swift_GrowingTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564A262D22EDA46F00D41507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Hidetomo Masuda";
+				TargetAttributes = {
+					564A263422EDA46F00D41507 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					564A264822EDA47000D41507 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 564A263422EDA46F00D41507;
+					};
+					564A265322EDA47000D41507 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 564A263422EDA46F00D41507;
+					};
+				};
+			};
+			buildConfigurationList = 564A263022EDA46F00D41507 /* Build configuration list for PBXProject "Swift_GrowingTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564A262C22EDA46F00D41507;
+			productRefGroup = 564A263622EDA46F00D41507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564A263422EDA46F00D41507 /* Swift_GrowingTextView */,
+				564A264822EDA47000D41507 /* Swift_GrowingTextViewTests */,
+				564A265322EDA47000D41507 /* Swift_GrowingTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564A263322EDA46F00D41507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A264322EDA47000D41507 /* LaunchScreen.storyboard in Resources */,
+				564A264022EDA47000D41507 /* Assets.xcassets in Resources */,
+				564A263E22EDA46F00D41507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A264722EDA47000D41507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A265222EDA47000D41507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564A263122EDA46F00D41507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A263B22EDA46F00D41507 /* ViewController.swift in Sources */,
+				564A263922EDA46F00D41507 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A264522EDA47000D41507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A264E22EDA47000D41507 /* Swift_GrowingTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A265022EDA47000D41507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A265922EDA47000D41507 /* Swift_GrowingTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564A264B22EDA47000D41507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A263422EDA46F00D41507 /* Swift_GrowingTextView */;
+			targetProxy = 564A264A22EDA47000D41507 /* PBXContainerItemProxy */;
+		};
+		564A265622EDA47000D41507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A263422EDA46F00D41507 /* Swift_GrowingTextView */;
+			targetProxy = 564A265522EDA47000D41507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564A263C22EDA46F00D41507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A263D22EDA46F00D41507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564A264122EDA47000D41507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A264222EDA47000D41507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564A265B22EDA47000D41507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564A265C22EDA47000D41507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564A265E22EDA47000D41507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564A265F22EDA47000D41507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564A266122EDA47000D41507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_GrowingTextView.app/Swift_GrowingTextView";
+			};
+			name = Debug;
+		};
+		564A266222EDA47000D41507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_GrowingTextView.app/Swift_GrowingTextView";
+			};
+			name = Release;
+		};
+		564A266422EDA47000D41507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_GrowingTextView;
+			};
+			name = Debug;
+		};
+		564A266522EDA47000D41507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_GrowingTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-GrowingTextViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_GrowingTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564A263022EDA46F00D41507 /* Build configuration list for PBXProject "Swift_GrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A265B22EDA47000D41507 /* Debug */,
+				564A265C22EDA47000D41507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A265D22EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A265E22EDA47000D41507 /* Debug */,
+				564A265F22EDA47000D41507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A266022EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A266122EDA47000D41507 /* Debug */,
+				564A266222EDA47000D41507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A266322EDA47000D41507 /* Build configuration list for PBXNativeTarget "Swift_GrowingTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A266422EDA47000D41507 /* Debug */,
+				564A266522EDA47000D41507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564A262D22EDA46F00D41507 /* Project object */;
+}
